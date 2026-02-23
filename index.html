@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document of Assignment 5</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <main>
+      <!--Nav bar start-->
+      <div>
+        <div id="navbar_container" class="">
+          <div class="navbar bg-red-100 shadow-sm">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <button id="btn_blog" class="text-black text-2xl font-bold">
+                  Blog
+                </button>
+              </div>
+            </div>
+            <div class="navbar-center">
+              <img src="assets/logo.png" alt="" />
+              <a class="btn btn-ghost text-xl">Donate Bangladesh</a>
+            </div>
+            <div class="navbar-end">
+              <img src="assets/coin.png" alt="" srcset="" />
+              <p id="main_balance" class="font-bold">5500BDT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Nav bar end-->
+      <!-- two buttons-->
+      <div class="flex justify-center space-x-6 mt-8">
+        <button id="show_donation" class="btn font-bold">Donation</button>
+        <button id="show_history" class="btn font-bold">History</button>
+      </div>
+      <!-- two buttons-->
+
+      <div>
+        <!--card section one start -->
+        <div class="mt-8 flex justify-center">
+          <div class="card card-side bg-base-100 shadow-sm">
+            <figure>
+              <img src="assets/noakhali.png" alt="" />
+            </figure>
+            <div class="card-body">
+              <div class="flex gap-1 bg-slate-300">
+                <img src="assets/coin.png" alt="" srcset="" />
+                <p id="donation_balance1" class="font-bold mt-1">500 BDT</p>
+              </div>
+              <h2 class="card-title">
+                Donate for Flood at Noakhali, Bangladesh
+              </h2>
+
+              <p>
+                The recent floods in Noakhali have caused significant damage to
+                <br />
+                homes infrastructure. Your donation will help provide essential
+                <br />
+                supplies and to those affected by this disaster. Every
+                contribution, big or small, makes Please join us in supporting
+                the relief <br />
+                efforts and making a positive impact on the lives of those in
+                need.
+              </p>
+              <div class="card-actions justify-center">
+                <input
+                  id="input_donation1"
+                  class="input"
+                  placeholder="Write Donation Amount"
+                />
+              </div>
+              <div class="flex justify-center">
+                <button
+                  id="btn_donate1"
+                  class="btn btn-neutral mt-4 bg-lime-400 text-black"
+                >
+                  Donate Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--card section one end -->
+
+        <!--card section two start -->
+        <div class="mt-8 flex justify-center">
+          <div class="card card-side bg-base-100 shadow-sm">
+            <figure>
+              <img src="assets/feni.png" alt="" />
+            </figure>
+            <div class="card-body">
+              <div class="flex gap-1 bg-slate-300">
+                <img src="assets/coin.png" alt="" srcset="" />
+                <p id="donation_balance2" class="font-bold mt-1">500 BDT</p>
+              </div>
+              <h2 class="card-title">
+                Donate for Flood Relief in Feni,Bangladesh
+              </h2>
+
+              <p>
+                The recent floods in Noakhali have caused significant damage to
+                <br />
+                homes infrastructure. Your donation will help provide essential
+                <br />
+                supplies and to those affected by this disaster. Every
+                contribution, big or small, makes Please join us in supporting
+                the relief <br />
+                efforts and making a positive impact on the lives of those in
+                need.
+              </p>
+              <div class="card-actions justify-center">
+                <input
+                  id="input_donation2"
+                  class="input"
+                  placeholder="Write Donation Amount"
+                />
+              </div>
+              <div class="flex justify-center">
+                <button
+                  id="btn_donate2"
+                  class="btn btn-neutral mt-4 bg-lime-400 text-black"
+                >
+                  Donate Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--card section two end -->
+
+        <!--card section three start -->
+
+        <div class="mt-8 flex justify-center">
+          <div class="card card-side bg-base-100 shadow-sm">
+            <figure>
+              <img src="assets/quota-protest.png" alt="" />
+            </figure>
+            <div class="card-body">
+              <div class="flex gap-1 bg-slate-300">
+                <img src="assets/coin.png" alt="" srcset="" />
+                <p id="donation_balance3" class="font-bold mt-1">500 BDT</p>
+              </div>
+              <h2 class="card-title">Aid for Injured in the Quota Movement</h2>
+
+              <p>
+                The recent floods in Noakhali have caused significant damage to
+                <br />
+                homes infrastructure. Your donation will help provide essential
+                <br />
+                supplies and to those affected by this disaster. Every
+                contribution, big or small, makes Please join us in supporting
+                the relief <br />
+                efforts and making a positive impact on the lives of those in
+                need.
+              </p>
+              <div class="card-actions justify-center">
+                <input
+                  id="input_donation3"
+                  class="input"
+                  placeholder="Write Donation Amount"
+                />
+              </div>
+              <div class="flex justify-center">
+                <button
+                  id="btn_donate3"
+                  class="btn btn-neutral mt-4 bg-lime-400 text-black"
+                >
+                  Donate Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--card section three end -->
+      </div>
+      <!---js files-->
+      <script src="js/utilities.js"></script>
+      <script src="js/donate.js"></script>
+      <script src="js/feature.js]"></script>
+    </main>
+  </body>
+</html>
